@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SegoeUI,sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+#box {
+    color: #fff;
+    background-color: rgb(45, 11, 124);
+    text-align: center;
+}
+
+#box h1 {
+    font-family: sans-serif;
+    color: rgb(199, 162, 0);
+    font-size: 40px;
+}
+.box1 p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.box1 {
+    padding: 30px 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+#qatalog {
+    background-color: rgb(107, 121, 136);
+}
+
+#qatalog ul {
+    text-align: center;
+}
+
+#qatalog ul li {
+    display: inline;
+}
+
+#qatalog ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+
+#qatalog ul li a:hover {
+    color: rgb(199, 162, 0);
+    border-bottom: 3px solid rgb(199, 162, 0);
+    display: inline-block;
+}
+
+.box2 {
+    padding: 60px 0;
+}
+
+.box2 img {
+    float: left;
+    width: 29%;
+}
+
+.box2 ul {
+    float: left;
+    width: 67%;
+}
+
+.box2 ul li {
+    padding: 5px 0;
+    list-style-type: none;
+}
+.box2 ul li:first-child {
+    padding-top: 0;
+}
+
+.box2 ul li img {
+    margin-left: 30px;
+    margin-right: 8px;
+    width: 16px; 
+    height: 15px;
+    display: inline-block;
+}
+
+.box3 {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 40px 0;
+    display: inline-block;
+}
+
+.box3 h1 {
+    font-size: 25px;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+}
+
+.box4 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.title h2 {
+    font-weight: 600;
+    color: #25202e;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tbody th {
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    background: rgb(185, 0, 15);
+    border-right: 1px solid rgb(252, 64, 126);
+}
+
+.table tbody td {
+    padding: 20px 10px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.table tbody tr:nth-child(odd) {
+    background: rgb(219, 209, 209);
+}
+
+.table tbody tr:nth-child(even) {
+    background: rgb(223, 222, 222);
+}
+
+.container2 .many {
+    margin: 30px 0;
+}
+
+.container2 .many li {
+    list-style-type: none;
+    display: inline;
+    margin: 14px;
+    display: inline-block;
+}
+
+.container2 .many li a {
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #666;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.container2 .many li a:hover {
+    color: #fff;
+    background: rgb(190, 140, 1);
+    border: 1px solid rgb(190, 140, 1);
+}
+
+.container2 ul li .style {
+    border: 1px solid rgb(190, 140, 1);
+    color: rgb(190, 140, 1);
+}
+
+.tit h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.img {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.img p a {
+    color: rgb(241, 0, 0)
+}
+
+.imgs {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.share .icons li {
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+}
+
+.share .icons {
+    margin-bottom: 30px;
+}
